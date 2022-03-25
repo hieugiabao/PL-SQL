@@ -1,5 +1,8 @@
--- tinh tong 2 so a va b
+BEGIN
+  Dbms_Output.PUT_LINE(A  => 'Hello World' /*IN VARCHAR2*/);
+END;
 
+-- tinh tong 2 so a va b
 DECLARE
   v_Result Number;
   v_a Number := 10;
